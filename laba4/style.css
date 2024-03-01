@@ -1,0 +1,62 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-top: 5px;
+    width: 60px;
+    height: 30px;
+}
+div{
+    background-color: black;
+}
+input{
+    display: block;
+    width: 100%;  
+    height: 40px; 
+    border-radius: 6px;
+    border: 1px solid;
+}
+
+.wrapper{
+    width: 200px;
+    padding: 3px;
+    border-radius: 6px;
+}
+.send{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    background: linear-gradient(to left, #8E2DE2, #4A00E0, #8E2DE2);
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    background-size: 200%;
+    transition: .5s;
+}
+
+.send:hover{
+    background: linear-gradient(to right, #8E2DE2, #4A00E0, #8E2DE2);
+    opacity: 0.8;
+}
+
+.butt{
+    margin-left: 1px;
+    border: none;
+    background: linear-gradient(to left, orangered, orange);
+    border-radius: 6px;
+}
+.butt:hover{
+    opacity: 0.8;
+    border: none;
+    background: linear-gradient(to right, orangered, orange);
+    border-radius: 6px;
+}
