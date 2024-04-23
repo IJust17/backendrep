@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+h1, h2 {
+    color: white;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid darkorchid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+}
+
+textarea:hover{
+    border-color: violet;
+}
+
+input:hover{
+    border: 2px solid violet;
+}
+
+select:hover{
+    background-color: rgba(119, 39, 115, 0.781);
+    border-color: violet;
+}
+
+ul{
+    color: white;
+}
+
+li{
+    list-style-type: decimal;
+}
+
+strong{
+    color: violet;
+}
+
+p{
+    color: white;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid darkorchid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    accent-color: violet;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, darkmagenta, darkorchid, darkorchid, violet);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+p {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid white;
+}
+
+::placeholder{
+    color:powderblue;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-self: center;
+}
